@@ -176,7 +176,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 100px;
     margin: 20px;
     height: 150px;
-    width: 200px;
+    width: 150px;
     border-radius: 20px;
     opacity: 0.93 !important;
     color: #e5e5c5;

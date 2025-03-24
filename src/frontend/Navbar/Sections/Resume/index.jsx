@@ -2,8 +2,8 @@ import React from "react";
 
 const Resume = () => {
   const handleDownload = () => {
-    const fileUrl = `${process.env.PUBLIC_URL}/sanjay_Resume.pdf`;
-    const fileName = "sanjay_Resume.pdf";
+    const fileUrl = `${process.env.PUBLIC_URL}/Bobby_Resume.pdf`;
+    const fileName = "Bobby_Resume.pdf";
     const link = document.createElement("a");
     link.href = fileUrl;
     link.download = fileName;

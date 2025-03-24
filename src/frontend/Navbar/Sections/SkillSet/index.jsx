@@ -1,15 +1,16 @@
 import { useRef } from "react";
-import { CgCPlusPlus, CgCode } from "react-icons/cg";
+import { DiGit } from "react-icons/di";
+import { FaAws, FaDocker, FaJenkins } from "react-icons/fa";
 import {
-  DiCode,
-  DiPython,
-  DiJava,
-  DiJavascript1,
-  DiReact,
-  DiGit,
-} from "react-icons/di";
-import { SiMysql } from "react-icons/si";
-import { TiBrush } from "react-icons/ti";
+  SiGooglecloud,
+  SiTerraform,
+  SiKubernetes,
+  SiAnsible,
+  SiCisco,
+  SiRedhat,
+} from "react-icons/si";
+import { VscAzureDevops } from "react-icons/vsc"; // ✅ Using VscAzureDevops
+import { MdNetworkCheck } from "react-icons/md";
 
 const Skillset = () => {
   const skillRef = useRef(null);
@@ -24,30 +25,34 @@ const Skillset = () => {
       <div className="d-flex flex-row">
         <div className="d-flex responsive-icon-container">
           <div className="skills-icon">
-            <CgCPlusPlus />
-            <span className="icon-text">{"C++"}</span>
+            <MdNetworkCheck />
+            <span className="icon-text">Networking</span>
           </div>
           <div className="skills-icon">
-            <CgCode />
-            <span className="icon-text">{"C"}</span>
-          </div>
-        </div>
-
-        <div className="d-flex responsive-icon-container">
-          <div className="skills-icon">
-            <DiJava />
-            <span className="icon-text">{"Java"}</span>
-          </div>
-          <div className="skills-icon">
-            <DiJavascript1 />
-            <span className="icon-text">{"JavaScript"}</span>
+            <SiRedhat />
+            <span className="icon-text">Redhat Linux</span>
           </div>
         </div>
 
         <div className="d-flex responsive-icon-container">
           <div className="skills-icon">
-            <DiPython />
-            <span className="icon-text">{"Python"}</span>
+            <FaAws />
+            <span className="icon-text">AWS Cloud</span>
+          </div>
+          <div className="skills-icon">
+            <VscAzureDevops />
+            <span className="icon-text">Azure Cloud</span>
+          </div>
+        </div>
+
+        <div className="d-flex responsive-icon-container">
+          <div className="skills-icon">
+            <SiGooglecloud />
+            <span className="icon-text">Google Cloud</span>
+          </div>
+          <div className="skills-icon">
+            <SiCisco />
+            <span className="icon-text">CCNA</span>
           </div>
         </div>
       </div>
@@ -55,30 +60,34 @@ const Skillset = () => {
       <div className="d-flex flex-row">
         <div className="d-flex responsive-icon-container">
           <div className="skills-icon">
-            <DiReact />
-            <span className="icon-text">{"React.Js"}</span>
-          </div>
-          <div className="skills-icon">
-            <SiMysql />
-            <span className="icon-text">{"SQL"}</span>
-          </div>
-        </div>
-
-        <div className="d-flex responsive-icon-container">
-          <div className="skills-icon">
-            <DiCode />
-            <span className="icon-text">{"DSA"}</span>
-          </div>
-          <div className="skills-icon">
-            <TiBrush />
-            <span className="icon-text">{"Designing"}</span>
-          </div>
-        </div>
-
-        <div className="d-flex responsive-icon-container">
-          <div className="skills-icon">
             <DiGit />
-            <span className="icon-text">{"Git"}</span>
+            <span className="icon-text">Git</span>
+          </div>
+          <div className="skills-icon">
+            <FaJenkins />
+            <span className="icon-text">Jenkins</span>
+          </div>
+        </div>
+
+        <div className="d-flex responsive-icon-container">
+          <div className="skills-icon">
+            <FaDocker />
+            <span className="icon-text">Docker</span>
+          </div>
+          <div className="skills-icon">
+            <SiTerraform />
+            <span className="icon-text">Terraform</span>
+          </div>
+        </div>
+
+        <div className="d-flex responsive-icon-container">
+          <div className="skills-icon">
+            <SiKubernetes />
+            <span className="icon-text">Kubernetes</span>
+          </div>
+          <div className="skills-icon">
+            <SiAnsible />
+            <span className="icon-text">Ansible</span>
           </div>
         </div>
       </div>

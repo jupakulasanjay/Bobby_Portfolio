@@ -13,113 +13,84 @@ const Experience = () => {
 
       <div className="d-flex gap-space mt-5 w-auto h-auto experience-box-container">
         <div className="experience-box">
-          <span className="experience-heading">OWL CODER - (Technical Hub)</span>
+          <span className="experience-heading">
+            Multi-Cloud Engineer - (T Hub)
+          </span>
           <div className="experience-body">
             <ul>
               <li>
-                Solved 400+ problems on LeetCode, 400+ on GeeksforGeeks (GFG),
-                and 200+ on CodeChef, strengthening problem-solving skills.
+                <i>6+ years of experience</i> in <i>multi-cloud solutions</i>{" "}
+                (AWS, Azure, Google Cloud).
               </li>
               <li>
-                Gained hands-on experience in code optimization, time and space
-                complexity analysis, and efficient algorithm design.
+                Strong <i>networking knowledge (CCNA-level)</i> with expertise
+                in <i>cloud architecture, automation, and security</i>.
               </li>
               <li>
-                Proficient in dynamic programming, graph algorithms, recursion,
-                and other advanced techniques.
+                Hands-on experience with{" "}
+                <i>
+                  EC2, VPC, Auto Scaling, S3, RDS, IAM, and cloud-native
+                  services
+                </i>{" "}
+                (Lambda, CloudWatch, DynamoDB, Elastic Beanstalk).
               </li>
               <li>
-                Enhanced debugging skills and the ability to write optimized,
-                scalable, and efficient code.
+                Skilled in{" "}
+                <i>
+                  troubleshooting, optimizing performance, and ensuring cloud
+                  security
+                </i>
+                .
               </li>
               <li>
-                Strong understanding of data structures, including trees,
-                graphs, heaps, and tries.
-              </li>
-              <li>
-                Improved critical thinking and problem-solving speed through
-                competitive programming.
+                Expertise in{" "}
+                <i>designing and managing scalable cloud infrastructures</i> for
+                high availability.
               </li>
             </ul>
           </div>
         </div>
         <div className="experience-box">
           <span className="experience-heading">
-            SDE - INTERN - (SpringWorks)
+            DevOps Engineer - (Technical Hub)
           </span>
           <div className="experience-body">
             <ul>
               <li>
-                Contributed to the development of a product-based software,
-                focusing on responsive UI design and seamless user interactions.
+                <i>6+ years of expertise</i> in{" "}
+                <i>DevOps, automation, and CI/CD pipelines</i>.
               </li>
               <li>
-                Collaborated with designers and backend teams to implement key
-                frontend functionality, ensuring a smooth user experience across
-                devices.
+                Proficient in{" "}
+                <i>Terraform, Ansible, Jenkins, Git, Docker, and Kubernetes</i>.
               </li>
               <li>
-                Gained hands-on experience in React, JavaScript, and modern UI
-                development practices, optimizing performance and
-                maintainability.
+                Strong background in{" "}
+                <i>
+                  Infrastructure as Code (IaC), containerization, and cloud
+                  automation
+                </i>
+                .
               </li>
               <li>
-                Developed and maintained test cases using React Testing Library,
-                achieving 80%+ code coverage for each component.
+                Experience in{" "}
+                <i>
+                  continuous integration and delivery (CI/CD) for efficient
+                  deployments
+                </i>
+                .
               </li>
               <li>
-                Ensured component reliability through unit and integration
-                testing, improving overall code quality.
+                Skilled in{" "}
+                <i>
+                  troubleshooting, optimizing workflows, and implementing DevOps
+                  best practices
+                </i>
+                .
               </li>
               <li>
-                Strengthened expertise in test-driven development (TDD) and
-                scalable frontend architectures.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="experience-box">
-          <span className="experience-heading">
-            SDE 1 - FRONTEND - (SpringWorks)
-          </span>
-          <div className="experience-body">
-            <ul>
-              <li>
-                Contributed to Horizon 360, a dynamic web application, using
-                React for interactive and seamless user experiences.
-              </li>
-              <li>
-                Implemented responsive designs, ensuring smooth performance
-                across multiple devices and screen sizes.
-              </li>
-              <li>
-                Worked with key frontend libraries, including:
-                <ul>
-                  <li>
-                    <strong>React-Query</strong> for efficient data fetching and
-                    state management.
-                  </li>
-                  <li>
-                    <strong>Formik</strong> for streamlined form handling and
-                    validation.
-                  </li>
-                  <li>
-                    <strong>Lodash</strong> for utility functions to simplify
-                    complex operations.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Wrote unit tests using Cypress, ensuring high code quality,
-                reliability, and performance optimization.
-              </li>
-              <li>
-                Optimized application performance and rendering efficiency,
-                reducing load times and improving user experience.
-              </li>
-              <li>
-                Collaborated with backend teams and UI/UX designers to ensure
-                smooth data flow and visually appealing interfaces.
+                <i>Real-time project exposure</i> with the ability to{" "}
+                <i>adapt to evolving technologies</i>.
               </li>
             </ul>
           </div>

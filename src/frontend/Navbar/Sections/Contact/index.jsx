@@ -1,36 +1,36 @@
-import { FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="d-flex gap-5 justify-content-center contact-container">
-      {/* GitHub Icon */}
+      {/* LinkedIn Icon */}
       <div className="contact-icon-container">
         <a
-          href="https://github.com/jupakulasanjay"
+          href="https://in.linkedin.com/in/bobby-pamarthi-3a7b8020b"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-icon-link"
         >
-          <FaGithub className="contact-icon" />
-          <span> Github</span>
+          <FaLinkedin className="contact-icon" />
+          <span> LinkedIn</span>
         </a>
       </div>
 
       {/* Email Link */}
       <div className="contact-icon-container">
         <a
-          href="mailto:sanjayjupakula@gmail.com"
+          href="mailto:bobypamarthi@gmail.com"
           className="contact-icon-link"
         >
           <FaEnvelope className="contact-icon" />
-          <span> sanjayjupakula@gmail.com</span>
+          <span> bobypamarthi@gmail.com</span>
         </a>
       </div>
 
       <div className="contact-icon-container">
-        <a href="tel:+919010180960" className="contact-icon-link">
+        <a href="tel:+919391362955" className="contact-icon-link">
           <FaPhone className="contact-icon" />
-          <span> +91 9010180960</span>
+          <span> +91 9391362955</span>
         </a>
       </div>
     </div>

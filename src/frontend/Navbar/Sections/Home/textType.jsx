@@ -18,7 +18,7 @@ const Type = () => {
     <StyledTypewriter>
       <Typewriter
         options={{
-          strings: ["Software Developer - FrontEnd", "Freelancer"],
+          strings: ["Multi-Cloud Engineer & Trainer", "DevOps Engineer & Trainer"],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,

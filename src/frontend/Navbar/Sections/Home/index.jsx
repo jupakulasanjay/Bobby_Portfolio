@@ -22,7 +22,7 @@ const Home = () => {
       <div className="d-flex flex-column justify-content-center ms-5 p-5 responsive-title">
         <NameGreeting>
           <p className="mb-0">Hi there! </p>
-          <p>I'm Sanjay Jupakula</p>
+          <p>I'm Bobby Pamarthi</p>
         </NameGreeting>
         <Type />
       </div>

@@ -6,12 +6,14 @@ const About = () => {
     <div ref={aboutRef} className="d-flex flex-column align-items-center ">
       <img src="/images/aboutme1.png" alt="" className="about-me" />
       <div className="about-me-intro">
-        I am a passionate coder who believes that writing clean code is like
-        brewing a perfect cup of coffee, it takes time, care, and just the right
-        amount of skill. By day, I’m a Frontend Developer, crafting seamless
-        user interfaces with React and making sure things just work. By night, I
-        dive into C++, JavaScript, and Python, because, you know, a real coder
-        never sleeps.
+        I am a passionate Cloud & DevOps Engineer and Trainer who believes that
+        building scalable infrastructure is like orchestrating a symphony—it
+        requires precision, automation, and a deep understanding of every note.
+        At work, I design and optimize cloud solutions, automate deployments,
+        and ensure seamless operations with AWS, Kubernetes, and Terraform.
+        Alongside my engineering role, I also train students, having mentored
+        70+ batches, sharing my expertise in CI/CD, Infrastructure as Code, and
+        cloud security—because tech mastery is meant to be passed on.
       </div>
     </div>
   );
